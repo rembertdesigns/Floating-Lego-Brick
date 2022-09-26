@@ -1,0 +1,12 @@
+body {
+    background-color: #06D6A0;
+  }
+  
+  .container {
+    width: 200px;
+    height: 190px;
+    margin: 25vh auto 0 auto;
+    perspective: 4000px;
+    animation: rotate 8s linear infinite forwards;
+    transform-style: preserve-3d;
+  }
