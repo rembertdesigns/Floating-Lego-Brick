@@ -123,3 +123,34 @@ body {
     transform: rotateX(90deg) translateY(30px) translateZ(-140px);
     background-color: #0075cf;
   }
+
+  .tubes {
+    width: 100px;
+    height: 190px;
+    transform: translateZ(-21px);
+   }
+   
+   .tube {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #690000;
+    box-shadow: inset 1px 0px 0px 0px #d40000;
+    border: solid 1px #940000;
+   }
+   
+   .tube-1 {
+     right: calc(50% - 20px);
+     top: 25px;
+   }
+   
+   .tube-2 {
+     right: calc(50% - 20px);
+     top: 78px;
+   }
+   
+   .tube-3 {
+     right: calc(50% - 20px);
+     bottom: 25px;
+   }
