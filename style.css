@@ -154,3 +154,38 @@ body {
      right: calc(50% - 20px);
      bottom: 25px;
    }
+
+   .shadow {
+    width: 100px;
+    height: 7px;
+    background-color: rgba(0,0,0,0.6);
+    margin: 70px auto 0 auto;
+    border-radius: 50%;
+    animation: shadow-dynamics 2000ms linear infinite alternate 0s forwards running;
+  }
+  
+  @keyframes rotate {
+    0% {}
+    100% {
+      transform: rotateY(360deg);
+    }
+  }
+  
+  @keyframes hover {
+    0% {
+      transform: rotateY(-15deg) rotateZ(-20deg) ;
+    }
+    100% {
+      transform: translate(0,30px) rotateY(-15deg) rotateZ(-20deg);
+    }
+  }
+  
+  @keyframes shadow-dynamics {
+    0% {}
+    100% {
+      background-color: rgba(0,0,0,0.7);
+      width: 60px;
+      height: 20px;
+    }
+  
+  }
