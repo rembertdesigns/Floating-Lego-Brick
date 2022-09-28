@@ -97,7 +97,7 @@ body {
     height: 190px;
     transform-origin: left;
     transform: rotateY(-90deg) translateX(-20px);
-    background-color: #0075cf;
+    background-color: #09485d;
   }
   
   .right {
@@ -105,7 +105,7 @@ body {
     height: 190px;
     transform-origin: right;
     transform: rotateY(90deg) translateX(20px) translateZ(50px);
-    background-color: #0075cf;
+    background-color: #09485d;
   }
   
   .top {
@@ -121,7 +121,7 @@ body {
     height: 50px;
     transform-origin: bottom;
     transform: rotateX(90deg) translateY(30px) translateZ(-140px);
-    background-color: #0075cf;
+    background-color: #09485d;
   }
 
   .tubes {
@@ -135,9 +135,9 @@ body {
     width: 35px;
     height: 35px;
     border-radius: 50%;
-    background-color: #690000;
-    box-shadow: inset 1px 0px 0px 0px #d40000;
-    border: solid 1px #940000;
+    background-color: #073B4C;
+    box-shadow: inset 1px 0px 0px 0px #09485d;
+    border: solid 1px #073B4C;
    }
    
    .tube-1 {
